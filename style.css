@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  background-color: #00CED1;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wrapper {
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: white;
+  -webkit-box-shadow: 18px 18px 11px 0px rgba(224, 224, 224, 0.55);
+  -moz-box-shadow: 18px 18px 11px 0px rgba(224, 224, 224, 0.55);
+  box-shadow: 18px 18px 11px 0px rgba(224, 224, 224, 0.55);
+}
+
+.missing {
+  margin-bottom: 10px;
+}
+
+.width100 {
+  width: 100%;
+
+}
+
+label {
+  margin-top: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#emailMessage {
+  font-size: 0.9rem;
+  color: darkgrey;
+}
+
+#email {
+  padding-left: 10px;
+}
+
+#warningHeading {
+  font-weight: bold;
+}
+
+.warningMessage {
+  font-size: 1rem;
+}
